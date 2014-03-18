@@ -1,0 +1,32 @@
+header {
+    height: 80px;
+    background: #194192;
+}
+.logo {
+    margin-top: 10px;
+    z-index: 10;
+}
+
+.logo h1 {
+    text-indent: -999em;
+}
+nav ul {
+    float: right;
+    margin-top: 40px;
+    font-family: 'FuturaMdBTMedium';
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color:lightgrey;
+    text-decoration: none;
+}
