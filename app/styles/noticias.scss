@@ -1,16 +1,21 @@
-div.news {
-  background-color: #194192;
-  height: 246px;
-}
-div.notica p {
-    width: 260px;
-}
+@import 'fonts.css';
+
+
 figure  {
     margin-top: 60px;
     margin-bottom: 60px;
 }
 figure img {
     width: 100%;
+}
+.noticias h3 {
+    font-family:'FuturaMdBTMedium';
+    color: white;
+}
+.noticias p {
+    width: 260px;
+    font-family:'FuturaBkBTBook';
+    color: white;
 }
 
 

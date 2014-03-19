@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'FuturaBkBTBook';
+    src: url('fonts/tt0140m_.eot');
+    src: url('fonts/tt0140m_.eot') format('embedded-opentype'),
+         url('fonts/tt0140m_.woff') format('woff'),
+         url('fonts/tt0140m_.ttf') format('truetype'),
+         url('fonts/tt0140m_.svg#FuturaBkBTBook') format('svg');
+}
+@font-face {
+    font-family: 'FuturaMdBTMedium';
+    src: url('fonts/tt0142m_.eot');
+    src: url('fonts/tt0142m_.eot') format('embedded-opentype'),
+         url('fonts/tt0142m_.woff') format('woff'),
+         url('fonts/tt0142m_.ttf') format('truetype'),
+         url('fonts/tt0142m_.svg#FuturaMdBTMedium') format('svg');
+}
+@font-face {
+    font-family: 'FuturaBkBTBookItalic';
+    src: url('fonts/tt0141m_.eot');
+    src: url('fonts/tt0141m_.eot') format('embedded-opentype'),
+         url('fonts/tt0141m_.woff') format('woff'),
+         url('fonts/tt0141m_.ttf') format('truetype'),
+         url('fonts/tt0141m_.svg#FuturaBkBTBookItalic') format('svg');
+}
+@font-face {
+    font-family: 'FuturaMdBTMediumItalic';
+    src: url('fonts/tt0143m_.eot');
+    src: url('fonts/tt0143m_.eot') format('embedded-opentype'),
+         url('fonts/tt0143m_.woff') format('woff'),
+         url('fonts/tt0143m_.ttf') format('truetype'),
+         url('fonts/tt0143m_.svg#FuturaMdBTMediumItalic') format('svg');
+}
+@font-face {
+    font-family: 'FuturaMdBTBold';
+    src: url('fonts/tt0144m_.eot');
+    src: url('fonts/tt0144m_.eot') format('embedded-opentype'),
+         url('fonts/tt0144m_.woff') format('woff'),
+         url('fonts/tt0144m_.ttf') format('truetype'),
+         url('fonts/tt0144m_.svg#FuturaMdBTBold') format('svg');
+}
+@font-face {
+    font-family: 'FuturaMdBTBoldItalic';
+    src: url('fonts/tt0145m_.eot');
+    src: url('fonts/tt0145m_.eot') format('embedded-opentype'),
+         url('fonts/tt0145m_.woff') format('woff'),
+         url('fonts/tt0145m_.ttf') format('truetype'),
+         url('fonts/tt0145m_.svg#FuturaMdBTBoldItalic') format('svg');
+}
