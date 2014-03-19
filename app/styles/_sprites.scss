@@ -1,4 +1,27 @@
 @import 'my-icons/*.png';
 @include all-my-icons-sprites;
 
-
+.my-icons-inicial {
+    background-position: 0 -143px;
+    height: 73px;
+    width: 75px;
+    display: inline-block;
+}
+.my-icons-primaria {
+    background-position: 0 -73px;
+    height: 73px;
+    width: 75px;
+    display: inline-block;
+}
+.my-icons-secundaria {
+    background-position: 0 0px;
+    height: 73px;
+    width: 75px;
+    display: inline-block;
+}
+.my-icons-ingles {
+    background-position: 0 -219px;
+    height: 73px;
+    width: 75px;
+    display: inline-block;
+}

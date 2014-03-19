@@ -1,7 +1,9 @@
 div.icon {
-    width: 120px; 
-    height: 120px; 
-    display:block;
+    width: 75px; 
+    height: 75px; 
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 85px;
 }
 section.niveles p {
     width: 200px;
@@ -13,15 +15,15 @@ section.niveles h3{
 section.niveles {
     height: 430px;
 }
-section.niveles .inicial {
+.inicial {
     background-color: #2879ba;
 }
-section.niveles .primaria {
+.primaria {
     background-color: #2d5fc1;
 }
-section.niveles .secundaria {
+.secundaria {
     background-color: #254fa1;
 }
-section.niveles .ingles {
+.ingles {
     background-color: #1e4083;
 }
