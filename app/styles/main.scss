@@ -2,7 +2,9 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 
 // bower:scss
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+@import '_header.scss';
+@import '_flexslider.scss';
+@import 'noticias.scss';
+@import 'compass';
+@import 'niveles.scss';
 // endbower
-
-
-
