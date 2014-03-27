@@ -35,16 +35,16 @@
                     </div>
                     <nav class="col-md-10">
                         <ul>
-                            <li><a href="#Inicio">Inicio</a></li>
-                            <li><a href="#Nosotros">Nosotros</a></li>
-                            <li><a href="#Niveles">Niveles</a></li>
-                            <li><a href="#OtrasActividades">Otras actividades</a></li>
+                            <li><a href="#index">Inicio</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#niveles">Niveles</a></li>
+                            <li><a href="#otrasactividades">Otras actividades</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
-        <section class="flex-container">
+        <section class="flex-container clearfix">
             <div class="flexslider col-md-12">
                 <ul class="slides">
                     <li>
@@ -62,36 +62,34 @@
                 </ul>
             </div>
         </section>
-        <section class="noticias">
-            <div class="container">
+        <div class="container">
+            <section class="noticias">
                 <div class="row news">
-                    <div class="col-md-2 col-md-offset-1">
-                        <figure class="img-thumbnail">
-                            <img src="images/halloween.jpg">
-                        </figure>
-                    </div>
-                    <div class="col-md-3">    
-                        <div class="noticia halloween">
+                    <div class="news-entry">
+                        <div class="new-img">
+                            <figure class="img-thumbnail">
+                                <img src="images/halloween.jpg">
+                            </figure>
+                        </div>
+                        <div class="noticia izquierda">
                             <h3>Happy Halloween</h3>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, a, aut, minima eveniet praesentium earum quas deserunt qui magnam in molestiae distinctio ipsa debitis vero reiciendis amet cumque fugit nesciunt. </p>
                         </div>
                     </div>
-                    <div class="col-md-2">
-                        <figure class="img-thumbnail">
-                            <img src="images/Houses.jpg">
-                        </figure>
-                    </div>
-                    <div class="col-md-3">    
-                        <div class="noticia houses">
+                    <div class="news-entry">
+                        <div class="new-img">
+                            <figure class="img-thumbnail">
+                                <img src="images/Houses.jpg">
+                            </figure>
+                        </div>
+                        <div class="noticia derecha">
                             <h3>Houses</h3>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, a, aut, minima eveniet praesentium earum quas deserunt qui magnam in molestiae distinctio ipsa debitis vero reiciendis amet cumque fugit nesciunt. </p>
                         </div>
                     </div>
                   </div>
-            </div>
-        </section>
-        <section class="niveles">
-            <div class="container">
+            </section>
+            <section class="niveles">
                 <div class="row">
                     <div class="inicial col-md-3">
                         <div class="icon">
@@ -126,37 +124,38 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, sunt, nobis dolore nihil perferendis voluptates optio magni suscipit quia iste ea soluta odio perspiciatis rem debitis amet omnis odit nostrum? </p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="contacto">
-            <div class="container">
+            </section>
+            <section class="contacto">
                 <div class="row contact">
-                    <div class="fotos col-md-2 col-md-offset-1">
+                    <div class="mapa col-md-2 col-md-offset-1">
+                        <h4>¿Como llegar?</h4>
                         <a href="#mapa">
                             <img src="images/mapa.png">
                         </a>
                     </div>
                     <div class="campus col-md-2">
+                        <h4>Nuestro Campus</h4>
                         <a href="#campus">
                             <img src="images/mural.png">
                         </a>
                     </div>
                     <div class="fotos col-md-2">
+                        <h4>Nuestras Fotos</h4>
                         <a href="#fotos">
                             <img src="images/fotos.png">
                         </a>
                 </div>
                 <div class="col-md-4 col-md-offset-1">
-                    <form action="demo_form.asp">
-                      <input type="text" name="nombre"><br>
-                      <textarea name="mensaje"></textarea>
+                    <h5>Contacto</h5>
+                    <form class="contact-us">
+                      <input type="text" name="nombre" class="contact-in"><br>
+                      <input type="text" name="email" class="contact-in"><br>
+                      <textarea name="mensaje" class="contact-ta"></textarea>
                       <input type="submit" value="Enviar">
                     </form> 
                 </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
+            </section>
+            <footer>
                 <div class="row foot">
                     <div class="info col-md-3 col-md-offset-9">
                         <h6> Colegio del Aconquija</h6>
@@ -164,8 +163,8 @@
                         <p>0381   4253201   4254406</p>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
 
 
        

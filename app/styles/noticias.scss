@@ -1,21 +1,30 @@
 @import 'fonts.css';
+.newentry {
+    position: absolute;
+}
 
-
-figure  {
+figure {
+    margin-left: 30px;
     margin-top: 60px;
-    margin-bottom: 60px;
 }
-figure img {
-    width: 100%;
+div.new-img {
+    width: 250px;
+    padding-left: 0;
 }
-.noticias h3 {
+.new-img img{
+    width: 200px;
+}
+.noticia {
+    position: relative;
+    left: 260px;
+    bottom: 175px;
+}
+.noticia h3 {
     font-family:'FuturaMdBTMedium';
     color: white;
 }
-.noticias p {
+.noticia p {
     width: 260px;
     font-family:'FuturaBkBTBook';
     color: white;
 }
-
-

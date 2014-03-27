@@ -2,26 +2,40 @@
   background-color: #194192;
 }
 header {
-    height: 80px;
-    background: #254fa1;
+  height: 80px;
+  background: #254fa1;
 }
-div.news {
+div.news-entry {
   background-color: #254fa1;
-  height: 246px;
+  height: 300px;
+  width: 585px;
+  float: left
 }
 div.contact {
-    height: 250px;
-    background-color: #2879ba;
+  height: 250px;
+  background-color: #2879ba;
 }
 .inicial {
-    background-color: #2879ba;
+  background-color: #2879ba;
 }
 .primaria {
-    background-color: #2d5fc1;
+  background-color: #2d5fc1;
 }
 .secundaria {
-    background-color: #254fa1;
+  background-color: #254fa1;
 }
 .ingles {
-    background-color: #1e4083;
+  background-color: #1e4083;
+}
+#otras_actividades {
+  background-color: #194192;
+}
+.arte {
+  background-color: #254fa1;
+}
+.educacion_fisica {
+  background-color: #2879ba;
+}
+.huerta {
+  background-color: #2d5fc1;  
 }
