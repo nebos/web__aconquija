@@ -25,3 +25,28 @@
     width: 75px;
     display: inline-block;
 }
+
+@import 'buttons/*.png';
+@include all-buttons-sprites;
+
+.buttons-mapa  {
+    background-position: -2 -242;
+    height: 121px;
+    width: 121px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.buttons-mural  {
+    background-position: -2 -121;
+    height: 121px;
+    width: 121px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.buttons-fotos  {
+    background-position: 0 121;
+    height: 121px;
+    width: 121px;
+    display: inline-block;
+    margin-top: 30px;
+}
